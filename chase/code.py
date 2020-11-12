@@ -49,3 +49,7 @@ class Bird(pytch.Sprite):
         y_new = self.y_position
         y_diff = y_curr - y_new
         assert y_diff == self.speed, "should have moved the correct amount Down"
+
+
+class Star(pytch.Sprite):
+    Costumes = ["star.png"]
