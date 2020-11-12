@@ -50,6 +50,12 @@ class Bird(pytch.Sprite):
         y_diff = y_curr - y_new
         assert y_diff == self.speed, "should have moved the correct amount Down"
 
+    @pytch.when_green_flag_clicked
+    def check_catch(self):
+        while True:
+            if self.touching(Star):
+                self.say_for_seconds("Got you!", 2)
+
 
 class Star(pytch.Sprite):
     Costumes = ["star.png"]
