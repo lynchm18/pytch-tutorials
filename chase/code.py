@@ -7,5 +7,7 @@ class Sky(pytch.Stage):
     def checkRender(self):
         assert self.Backdrops == ["clouds.jpg"], "Background Image not defined Properly"
         print("Background Rendered successfully!")
-    
 
+
+class Bird(pytch.Sprite):
+    Costumes = ["bird.png"]
