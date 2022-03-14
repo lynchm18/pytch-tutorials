@@ -42,6 +42,7 @@ so Pytch will automatically select it when the project starts.
 You can try the project now — click the *green flag* to run your
 program — and you should see the clouds as a nice backdrop.
 
+{{< commit test-backdrops >}}
 
 ## Making the Bird character
 
@@ -125,6 +126,17 @@ changing the number we store in the ``speed`` variable. Because each
 of the moving methods uses the number they will all change ``x`` or
 ``y`` by the amount stored in the variable. Remember, you have to
 build and run the project after making any changes.
+
+### Testing the bird movement
+
+Right Press Test
+
+{{< commit test-right-press >}}
+
+Other Press Test
+
+{{< commit test-other-press >}}
+
 
 ## Giving the Bird something to chase
 
@@ -259,6 +271,10 @@ this problem by making the Bird wait for a tiny delay before starting
 checking for touching the star:
 
 {{< commit delay-detect-star-loop >}}
+
+### Testing Initial Star Movement
+
+{{< commit test-star-movement >}}
 
 
 ## Adding some sound
