@@ -8,7 +8,6 @@ class Sky(pytch.Stage):
         assert self.Backdrops == ["clouds.jpg"], "Background Image not defined Properly"
         print("Background Rendered successfully!")
 
-
 class Bird(pytch.Sprite):
     Costumes = ["bird.png"]
     speed = 3
@@ -20,7 +19,11 @@ class Bird(pytch.Sprite):
 
     @pytch.when_key_pressed("ArrowRight")
     def move_right(self):
+        x_curr = self.x_position
         self.change_x(self.speed)
+        x_new = self.x_position
+        x_diff = x_curr - x_new
+        assert x_diff == -self.speed, "should have moved the correct amount Right"
 
     @pytch.when_key_pressed("ArrowLeft")
     def move_left(self):
