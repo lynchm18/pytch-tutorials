@@ -2,4 +2,4 @@
 
 # Chase game
 
-This tutorial will show you how to make a game with multiple sprites and sound.
+This tutorial will show you how to make a game with multiple sprites and sound with TDD.
