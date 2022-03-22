@@ -28,12 +28,24 @@ class Bird(pytch.Sprite):
 
     @pytch.when_key_pressed("ArrowLeft")
     def move_left(self):
+        x_curr = self.x_position
         self.change_x(-self.speed)
+        x_new = self.x_position
+        x_diff = x_curr - x_new
+        assert x_diff == self.speed, "should have moved the correct amount Left"
 
     @pytch.when_key_pressed("ArrowUp")
     def move_up(self):
+        y_curr = self.y_position
         self.change_y(self.speed)
+        y_new = self.y_position
+        y_diff = y_curr - y_new
+        assert y_diff == -self.speed, "should have moved the correct amount Up"
 
     @pytch.when_key_pressed("ArrowDown")
     def move_down(self):
+        y_curr = self.y_position
         self.change_y(-self.speed)
+        y_new = self.y_position
+        y_diff = y_curr - y_new
+        assert y_diff == self.speed, "should have moved the correct amount Down"
