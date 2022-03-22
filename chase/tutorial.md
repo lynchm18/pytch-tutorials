@@ -42,7 +42,7 @@ so Pytch will automatically select it when the project starts.
 You can try the project now — click the *green flag* to run your
 program — and you should see the clouds as a nice backdrop.
 
-## Setting up the stage
+## Testing the Stage image
 
 One useful thing we can do to test if the immage is the image we are 
 expecting is to add the following code with an _assert_ function that
