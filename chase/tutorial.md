@@ -282,7 +282,7 @@ checking for touching the star:
 
 ### Testing Initial Star Movement
 
-{{< commit test-star-movement >}}
+{{< commit test-star-movements >}}
 
 
 ## Adding some sound
