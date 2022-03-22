@@ -1,5 +1,5 @@
 ![Screenshot](screenshot.png)
 
-# Chase game
+# Chase Game with Test Driven Development
 
-This tutorial will show you how to make a game with multiple sprites and sound with TDD.
+This tutorial will show you how to make a game with multiple sprites and sound and includes TDD.
