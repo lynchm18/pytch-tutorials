@@ -135,7 +135,7 @@ of the moving methods uses the number they will all change ``x`` or
 ``y`` by the amount stored in the variable. Remember, you have to
 build and run the project after making any changes.
 
-### Testing the bird movement
+## Testing the bird movement
 
 Right Press Test
 
