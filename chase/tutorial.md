@@ -288,6 +288,7 @@ in fact moving around on its own like we have programmed it to.
 This is done by checking the x and y coordinates, then waiting 2 seconds, then checking them again. 
 
 If the coordinates are the same an error will be thrown from the test. 
+
 {{< commit test-star-movements >}}
 
 
