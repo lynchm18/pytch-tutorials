@@ -280,7 +280,7 @@ checking for touching the star:
 
 {{< commit delay-detect-star-loop >}}
 
-### Testing Initial Star Movement
+## Testing Initial Star Movement
 
 One final test we will add to this project is to confirm that the star is 
 in fact moving around on its own like we have programmed it to. 
