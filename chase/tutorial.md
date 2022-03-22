@@ -44,7 +44,7 @@ program — and you should see the clouds as a nice backdrop.
 
 ## Testing the Stage images
 
-One useful thing we can do to test if the immage is the image we are 
+One useful thing we can do to test if the image is the image we are 
 expecting is to add the following code with an _assert_ function that
 checks the image is what we want and will report an error if the image
 is wrong. 
