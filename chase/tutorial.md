@@ -49,7 +49,7 @@ expecting is to add the following code with an _assert_ function that
 checks the image is what we want and will report an error if the image
 is wrong. 
 
-{{< commit test-backdrops >}}
+{{< commit test-backdrop-corrected >}}
 
 To see the error in action, change the name of the "clouds.jpg" to "bird.png".
 ## Making the Bird character
