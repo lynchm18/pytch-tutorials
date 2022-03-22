@@ -77,3 +77,13 @@ class Star(pytch.Sprite):
         while True:
             if self.touching(Bird):
                 self.hide()
+
+    @pytch.when_green_flag_clicked
+    def testMovement(self):
+        pytch.wait_seconds(10)
+        x_start = self.x_position
+        y_start = self.y_position
+        pytch.wait_seconds(2)
+        assert self.x_position != x_start, "star should have moved X"
+        assert self.y_position != y_start, "star should have moved Y"
+        print("Star Successfully Moved!")
