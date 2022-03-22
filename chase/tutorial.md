@@ -139,11 +139,11 @@ build and run the project after making any changes.
 
 Right Press Test
 
-{{< commit test-right-press >}}
+{{< commit test-right-presses >}}
 
 Other Press Test
 
-{{< commit test-other-press >}}
+{{< commit test-other-presses >}}
 
 
 ## Giving the Bird something to chase
