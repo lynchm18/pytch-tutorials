@@ -42,7 +42,7 @@ so Pytch will automatically select it when the project starts.
 You can try the project now — click the *green flag* to run your
 program — and you should see the clouds as a nice backdrop.
 
-## Testing the Stage image
+## Testing the Stage images
 
 One useful thing we can do to test if the immage is the image we are 
 expecting is to add the following code with an _assert_ function that
@@ -51,7 +51,7 @@ is wrong.
 
 {{< commit test-backdrops >}}
 
-To see the error in action, change the name of the "clouds.jpg" to "bird.png"
+To see the error in action, change the name of the "clouds.jpg" to "bird.png".
 ## Making the Bird character
 
 Next we will make the bird character that the player will control. The
