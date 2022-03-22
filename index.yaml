@@ -5,7 +5,7 @@
 - name: Shoot the fruit
   tip-commit: bn/shoot-the-fruit-01
 - name: Chase!
-  tip-commit: ml/chase-rebase
+  tip-commit: ml/chase-rebase-02
 - name: Catch the apple
   tip-commit: bn/catch-apple-02
 - name: Q*bert
